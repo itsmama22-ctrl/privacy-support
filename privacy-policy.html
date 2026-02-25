@@ -3,90 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Mohamed El Bouhssini</title>
+    <title>Privacy Policy</title>
     <style>
         :root {
-            --primary-bg: #f5f5f7;
-            --card-bg: #ffffff;
+            --primary-color: #5856d6; /* Modern iOS-like purple/blue */
             --text-main: #1d1d1f;
             --text-secondary: #86868b;
-            --accent: #D9A621;
-            --link: #0066cc;
+            --bg-color: #f5f5f7;
+            --card-bg: #ffffff;
         }
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--primary-bg);
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
             color: var(--text-main);
-            line-height: 1.5;
+            background-color: var(--bg-color);
             margin: 0;
-            padding: 0;
+            padding: 40px 20px;
             -webkit-font-smoothing: antialiased;
         }
+        
         .container {
             max-width: 800px;
-            margin: 60px auto;
-            padding: 40px;
+            margin: 0 auto;
             background: var(--card-bg);
+            padding: 40px 50px;
             border-radius: 24px;
-            box-shadow: 0 4px 24px rgba(0,0,0,0.04);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
         }
-        header { text-align: center; margin-bottom: 50px; }
-        h1 { font-size: 40px; font-weight: 700; letter-spacing: -0.015em; margin-bottom: 8px; }
-        .last-updated { color: var(--text-secondary); font-size: 14px; }
-        section { margin-bottom: 40px; }
-        h2 { font-size: 24px; font-weight: 600; margin-bottom: 16px; color: var(--text-main); border-bottom: 1px solid #f2f2f2; padding-bottom: 12px; }
-        h3 { font-size: 19px; font-weight: 600; margin-top: 24px; color: var(--accent); }
-        p, li { font-size: 17px; color: #424245; margin-bottom: 16px; }
-        .policy-box { background: #fafafa; padding: 24px; border-radius: 16px; border-left: 4px solid var(--accent); margin: 20px 0; }
-        footer { margin-top: 60px; padding-top: 30px; border-top: 1px solid #f2f2f2; text-align: center; }
-        nav a { color: var(--link); text-decoration: none; font-weight: 500; margin: 0 15px; }
-        nav a:hover { text-decoration: underline; }
-        @media (max-width: 600px) { .container { margin: 20px; padding: 24px; border-radius: 16px; } h1 { font-size: 28px; } }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            letter-spacing: -0.01em;
+            margin-bottom: 0.5rem;
+            color: var(--text-main);
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+            border-bottom: 2px solid #f1f1f1;
+            padding-bottom: 8px;
+        }
+        
+        h3 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-top: 1.8rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-main);
+        }
+        
+        .last-updated {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 2.5rem;
+        }
+        
+        p {
+            margin-bottom: 1.2rem;
+            font-size: 1.05rem;
+        }
+        
+        ul {
+            margin-bottom: 1.2rem;
+            padding-left: 24px;
+        }
+        
+        li {
+            margin-bottom: 0.8rem;
+            font-size: 1.05rem;
+        }
+        
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.2s ease;
+        }
+
+        a:hover {
+            opacity: 0.7;
+            text-decoration: underline;
+        }
+
+        .footer {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid #eaeaea;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            text-align: center;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 30px 20px;
+                border-radius: 16px;
+            }
+            body {
+                padding: 10px;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Privacy Policy</h1>
-            <p class="last-updated">Last updated: February 19, 2026</p>
-        </header>
-        <section>
-            <h2>1. Our Privacy Mission</h2>
-            <p>At the heart of our mission is a simple belief: your data belongs to you. We design our applications with a "Privacy First" approach, ensuring that your spiritual journey remains private and secure.</p>
-        </section>
-        <section>
-            <h2>2. Core Principles</h2>
-            <div class="policy-box">
-                <h3>A. Ad-Supported Apps (Free)</h3>
-                <p>Some of our applications use <strong>Google AdMob</strong> to provide content at no cost. AdMob may collect certain device-specific information (IDFA/AAID) to serve relevant advertisements.</p>
-            </div>
-            <div class="policy-box">
-                <h3>B. Premium Apps (Ad-Free)</h3>
-                <p>Elite applications like <strong>Nur</strong> are built without any third-party ads or tracking SDKs. These versions are designed to collect <strong>zero</strong> personal data for marketing purposes.</p>
-            </div>
-            <div class="policy-box">
-                <h3>C. In-App Purchases</h3>
-                <p>All financial transactions are handled securely via <strong>Apple StoreKit</strong>. We never see or store your payment details or billing address.</p>
-            </div>
-        </section>
-        <section>
-            <h2>3. Localized Data Processing</h2>
-            <p>We believe in decentralized data. Features that require location access (such as prayer times or Qibla direction) are processed <strong>locally on your device</strong>. No location data is ever transmitted to our servers.</p>
-        </section>
-        <section>
-            <h2>4. Security</h2>
-            <p>We use industry-standard security measures to protect the integrity of our systems. Since we don't collect your personal data, your digital footprint remains minimal and secure.</p>
-        </section>
-        <footer>
-            <nav>
-                <a href="support.html">Support & FAQ</a>
-                <span style="color: #ccc;">•</span>
-                <a href="mailto:medlbouhssini@gmail.com">Contact Support</a>
-            </nav>
-            <p style="font-size: 13px; color: var(--text-secondary); margin-top: 20px;">
-                © 2026 Mohamed El Bouhssini. All rights reserved.
-            </p>
-        </footer>
+
+<div class="container">
+    <h1>Privacy Policy</h1>
+    <p class="last-updated">Last updated: February 25, 2026</p>
+
+    <h2>1. Our Privacy Mission</h2>
+    <p>At the heart of our mission is a simple belief: your data belongs to you. We design all of our applications with a "Privacy First" approach, ensuring that your digital experience remains private and secure.</p>
+
+    <h2>2. Core Principles</h2>
+    <p>We offer various types of applications. Depending on the specific app you are using, the following principles apply:</p>
+    
+    <h3>A. Ad-Supported Applications (Free)</h3>
+    <p>Some of our applications use third-party advertising networks, such as Google AdMob, to provide content at no cost to you. These advertising networks may collect certain device-specific information (such as IDFA/AAID) to serve relevant advertisements. You have control over ad tracking preferences through your device's privacy settings.</p>
+
+    <h3>B. Premium Applications (Ad-Free)</h3>
+    <p>Our premium applications, or applications where you have purchased an ad removal subscription, are built without any third-party ads or tracking SDKs for marketing purposes. These versions are designed to collect zero personal data for advertising.</p>
+
+    <h3>C. In-App Purchases & Subscriptions</h3>
+    <p>All financial transactions are handled securely via Apple StoreKit. We never see, process, or store your payment details or billing address on our servers.</p>
+
+    <h2>3. Localized Data Processing</h2>
+    <p>We believe in decentralized data. Features that require device sensors or permissions (such as location access) are processed locally on your device. No location data is ever transmitted to or stored on our servers.</p>
+
+    <h2>4. Voice Data and Artificial Intelligence</h2>
+    <p>For applications utilizing voice recording, dictation, or Artificial Intelligence (AI) features, we transparently handle your data as follows to strictly protect your privacy:</p>
+    <ul>
+        <li><strong>Voice Recordings & Transcription (Apple Speech):</strong> When you record audio for transcription purposes, the app requires microphone access. Your voice recordings are sent securely to Apple's Speech Recognition service to accurately transcribe the audio into text. We do not store these audio files on external servers; they remain on your local device.</li>
+        <li><strong>Text Processing (Google Gemini AI):</strong> To provide intelligent features such as note summarization, translation, and action-item extraction, the text contents of your notes may be securely transmitted to Google's Gemini API. </li>
+        <li><strong>User Consent & Optionality:</strong> You have the explicit choice to opt-in or opt-out of these AI features at any time. If you decline AI features, your text notes will not be sent to Google, and the app will operate locally. We do not use your voice or text data to train our own AI models, and data shared with these third-party services is subject to their respective robust privacy and security protections.</li>
+    </ul>
+
+    <h2>5. Security</h2>
+    <p>We use industry-standard security measures to protect the integrity of our systems. Since we don't collect or store your personal identity data on our servers, your digital footprint remains minimal and secure.</p>
+
+    <div class="footer">
+        <p><a href="https://itsmama22-ctrl.github.io/privacy-support/support.html">Contact Support & FAQ</a></p>
+        <p>&copy; 2026 Mohamed El Bouhssini. All rights reserved.</p>
     </div>
+</div>
+
 </body>
 </html>
